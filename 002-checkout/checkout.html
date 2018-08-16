@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Credit Card Checkout</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="checkout-flow">
+            <div class="checkout-nav">
+                <a href="#">Delivery & Pickup Options</a>
+                <a href="#">Shipping Address</a>
+                <a href="#" class="active">Payment</a>
+            </div>
+            <div class="checkout">
+                <div class="product">
+                    <img src="images/beats.png" alt="product">
+                    <div class="info">
+                        <p class="name">Beats by Dr.Dre</p>
+                        <p class="type">Studio Wireless</p>
+                        <h2 class="price">$375</h2>
+                    </div>
+                </div>
+                <div class="form-wrapper">
+                    <h2>Credit Card Checkout</h2>
+                    <form class="payment-form">
+                        <div class="input-control">
+                            <label for="cardholder">Cardholder's Name</label>
+                            <input type="text" name="cardholder" id="cardholder">
+                        </div>
+                        <div class="input-control">
+                            <label for="cardholder">Card Number</label>
+                            <div class="icon-input">
+                                <input type="number" name="cardnumber" id="cardnumber">
+                                <i class="fab fa-cc-mastercard"></i>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="input-control">
+                                <label for="cardholder">Expiration Date</label>
+                                <div class="icon-input">
+                                    <input type="text" name="expiration" id="expiration" placeholder="MM/YY">
+                                    <i class="far fa-calendar"></i>
+                                </div>
+                            </div>
+                            <div class="input-control">
+                                <label for="cardholder">Cvc code</label>
+                                <input type="text" name="cardholder" id="cardholder">
+                            </div>
+                        </div>
+                        <input type="submit" class="btn-order" value="Place Order">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -55,7 +55,6 @@ header h2 {
 
 .container {
     display: flex;
-    align-items: flex-start;
     justify-content: center;
 }
 
@@ -63,7 +62,7 @@ header h2 {
 /*SignUp form*/
 
 .signup-wrapper {
-    width: 90%;
+    width: 500px;
 }
 
 .signup {
@@ -100,7 +99,6 @@ header h2 {
 
 .form-group {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -145,8 +143,11 @@ header h2 {
     color: #ffffff;
 }
 
-@media (min-width: 650px) {
+@media (max-width: 650px) {
     .signup-wrapper {
-        width: 500px;
+        width: 90%;
+    }
+    .form-group {
+        display: block;
     }
 }
