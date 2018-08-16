@@ -1,0 +1,152 @@
+/*-- Variables --*/
+
+:root {
+    --primary-color: #3598DC;
+    --grey: grey;
+    --grey-light: #f1eded;
+    --grey-dark: rgb(48, 47, 47);
+}
+
+/*---- Global ----*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    vertical-align: bottom;
+    text-decoration: none;
+}
+
+body {
+    background: var(--primary-color);
+}
+
+h2 {
+    font-size: 36px;
+    color: var(--grey-dark);
+}
+
+p {
+    font-size: 16px;
+    color: var(--grey);
+}
+
+input {
+    background-color: var(--grey-light);
+    padding: 15px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: var(--grey);
+}
+
+/*--main--*/
+
+
+header h2 {
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+    padding: 0 0 20px 20px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+/*SignUp form*/
+
+.signup-wrapper {
+    width: 90%;
+}
+
+.signup {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.signup .heading {
+    padding: 30px 30px 0 30px;
+}
+
+.signup .heading h2 {
+    margin-bottom: 10px;
+}
+
+.divider {
+    height: 1px;
+    background: var(--grey-light);
+    margin: 20px 0;
+}
+
+.signup-form {
+    padding: 0 30px 30px 30px;
+}
+
+.signup-form a {
+    color: var(--primary-color);
+}
+
+.signup-form input {
+    display: block;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group input {
+    flex: 0 0 48%;
+}
+
+.form-group input[type="checkbox"] {
+    flex: 0 0 5%;
+    margin: 0;
+    align-self: center;
+}
+
+.form-group label {
+    flex: 0 0 94%;
+    color: var(--grey);
+}
+
+.signup-form input[type="submit"] {
+    width: inherit;
+    padding: 10px 40px;
+    margin: 30px 0;
+    background: var(--primary-color);
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+/*login-link*/
+
+.login-link {
+    margin: 20px;
+    text-align: center;
+}
+
+.login-link p {
+    color: #ffffff;
+}
+
+.login-link p a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+@media (min-width: 650px) {
+    .signup-wrapper {
+        width: 500px;
+    }
+}

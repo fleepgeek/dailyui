@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple SignUp</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Teebo</h2>
+    </header>
+    <div class="container">
+        <div class="signup-wrapper">
+
+            <div class="signup">
+                <div class="heading">
+                    <h2>Sign Up</h2>
+                    <p>Please fill in this form to create an account!</p>
+                </div>
+                <div class="divider"></div>
+                <form class="signup-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="First Name" name="firstName" id="firstName">
+                        <input type="text" placeholder="Last Name" name="lastName" id="lastName">
+                    </div>
+    
+                    <input type="email" placeholder="Email" name="email" id="email">
+                    <input type="password" placeholder="Password" name="password" id="password">
+                    <input type="password" placeholder="Confirm Password" name="confirmPassword" id="confirmPassword">
+    
+                    <div class="form-group">
+                        <input type="checkbox" name="privacy" id="privacy">
+                        <label for="privacy">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></label>
+                    </div>
+    
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+
+            <div class="login-link">
+                <p>Already have an account? <a href="#">Login Here</a></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
