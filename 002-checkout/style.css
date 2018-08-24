@@ -63,8 +63,8 @@ input:focus {
 
 .container {
     display: grid;
-    grid-template-columns: .25fr 2fr 2fr .25fr;
-    grid-template-areas: ". m m .";
+    grid-template-columns: .25fr 4fr .25fr;
+    grid-template-areas: ". m .";
     width: 100%;
     padding: 40px 0;
 }
